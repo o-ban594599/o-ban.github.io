@@ -1,0 +1,241 @@
+html,body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+font-family: 'Oswald', sans-serif;
+}
+
+h1, h2, ul, li p{
+font-size: 14px;
+line-height: 1.6;
+}
+
+h1, h2, ul, li {
+  font-weight: bold;
+}
+
+header {
+  background-image: url(./imgs/bridge.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  padding: 8rem 0;
+}
+
+
+h1 {
+  font-size: 5rem;
+  text-align: center;
+  margin-top: 10rem;
+  letter-spacing: 3pt;
+  color: black;
+}
+
+.top {
+  font-size: 3rem;
+  text-align: center;
+  color:black;
+  letter-spacing: 1pt;
+}
+
+.nav {
+  text-align: center;
+}
+
+li {
+  font-size: 1.8rem;
+display: inline-block;
+padding: 0.1% 5%;
+margin-top: 20rem;
+margin-right: 10rem;
+border: 3px solid black;
+letter-spacing: 2pt;
+border-radius: 3px;
+}
+
+a {
+  display: block;
+  color: black;
+  margin: 0 auto;
+  text-decoration: none;
+}
+
+ li:hover {
+background-color: rgba(225, 225, 225, 0.5);
+}
+
+main {
+  background-image: url(./imgs/foot-2.png);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  padding: 450px 0;
+  position: relative;
+}
+
+.container {
+margin-bottom: 400px;
+}
+#one {
+  display: block;
+  width: 40%;
+  background-color: rgba(225, 225, 225, 0.9);
+  border-radius: 10px;
+  padding: 20px 40px 50px 40px;
+box-shadow:7px 9px 4px -6px #7a776f;
+-moz-box-shadow:7px 9px 4px -6px #7a776f;
+-webkit-box-shadow:7px 9px 4px -6px #7a776f;
+margin: 0 auto;
+position: absolute;
+top: 100px;
+left: 100px;
+}
+
+h2 {
+  font-size: 30px;
+  letter-spacing: 1pt;
+}
+
+.name {
+  font-size: 25px;
+  letter-spacing: 1pt;
+}
+
+
+#two {
+  display: block;
+  width: 40%;
+  background-color: rgba(225, 225, 225, 0.9);
+  border-radius: 10px;
+  padding: 20px 40px 50px 40px;
+box-shadow:7px 9px 4px -6px #7a776f;
+-moz-box-shadow:7px 9px 4px -6px #7a776f;
+-webkit-box-shadow:7px 9px 4px -6px #7a776f;
+position: absolute;
+top: 700px;
+right: 100px;
+}
+
+.skill-1 {
+  width: 100%;
+  text-align: center;
+}
+
+.skill-1 img {
+  display: inline-block;
+  width: 20%;
+  padding-top: 20px;
+padding-right: 40px;
+padding-bottom: 30px;
+transition-duration: 1s;
+
+}
+
+.skill-1 img: last-child {
+  margin-right: none;
+}
+
+.skill-2 {
+  width: 100%;
+  text-align: center;
+}
+
+.skill-2 img {
+  width: 20%;
+margin-right: 40px;
+text-align: center;
+}
+
+ img: hover {
+  transform: rotateY(360deg);
+}
+
+
+footer {
+  background-image: linear-gradient(#05FBFF, #26c9FF);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  padding: 100px 0;
+}
+
+footer h2 {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+form {
+    /* フォームをページの中央に置く */
+    margin: 0 auto;
+    width: 1000px;
+    /* フォームの範囲がわかるようにする */
+    border-style: none
+}
+
+form div + div {
+    margin-top: 10px;
+}
+
+label {
+    /* すべてのラベルを同じサイズにして、きちんと揃える */
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+    font-size: 18px;
+}
+
+input, textarea {
+    /* すべてのテキストフィールドのフォント設定を一致させる
+       デフォルトで、textarea は等幅フォントが設定されている */
+    font: 1em sans-serif;
+    height: 2em;
+    background-color: rgba(225, 225, 225, 0.9);
+
+    /* すべてのテキストフィールドを同じサイズにする */
+    width: 800px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+    /* テキストフィールドのボーダーの外見を同一にする */
+    border: 1px solid #999;
+}
+
+input:focus, textarea:focus {
+    /* アクティブな要素を少し強調する */
+    border-color: #000;
+}
+
+textarea {
+    /* 複数行のテキストフィールドをラベルにきちんと揃える */
+    vertical-align: top;
+
+    /* テキスト入力に十分な領域を与える */
+    height: 150px;
+
+    /* ユーザが textarea を垂直方向にリサイズできるようにする
+       これが動作しないブラウザもある */
+    resize: vertical;
+}
+
+.send {
+  margin-top: 50px;
+}
+
+.button1 {
+    display: block;
+    margin: 0 auto ;
+    padding:5px 60px;
+    font-size: 20px;
+    font-weight: bold;
+    border: 1px solid black;
+    border-radius: 3px;
+    background-color: rgba(225, 225, 225, 0.9);
+}
+
+.button1:hover {
+ background-color: rgba(225, 225, 225, 0.5); 
+}
+
+
